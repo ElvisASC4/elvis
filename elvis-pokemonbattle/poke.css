@@ -1,0 +1,10 @@
+body{
+    background-image: url("https://slack-imgs.com/?c=1&url=http%3A%2F%2Ffiles.sharenator.com%2F3_Epic_Pokemon-s520x520-173794.png");
+    background-size: 1600px 820px;
+}
+h1{
+    font-size: 30px;
+    margin: 0;
+    color: rgb(19, 221, 137);
+    text-shadow: 1px 1px black;
+}
