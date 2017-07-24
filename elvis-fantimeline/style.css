@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://cdn-jpg3.thedailymeal.com/sites/default/files/styles/hero_image_breakpoints_theme_tdmr_lg_1x/public/story/2016/guy%20fieri2-foodnetwork%20MAIN_0.jpg?itok=D9an1C1O&timestamp=1468506115");
+    background-size: 200px 200px;
+    text-shadow: 1px 1px black;
+    color:rgb(0, 255, 165);
+    text-align: center;
+
+}
+h1 {
+    text-align: center;
+}
+#name{
+    font-size: 250%;
+    border: 5px groove rgb(237, 2, 88);
+    background-color: darkblue;
+
+}
+.tittle{
+    background-color: darkblue;
+    text-decoration: underline;
+}
+.dates{
+    font-size: 200%;
+    border: 5px solid rgb(255, 0, 123);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: darkblue;
+
+}
+img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid darkblue;
+
+}
+
+h2 {
+    margin:0;
+}
+p{
+    margin: 0;
+}
