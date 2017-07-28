@@ -1,0 +1,43 @@
+body {
+    margin-top: 50px;  /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: url('elviswebsitepic.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    position: relative;
+    bottom: -180px;
+    left: -480px;
+    font-size: 200%;
+}
+
+#name{
+    font-size: 250%;
+}
+/*social media logos*/
+#info{
+    font-size: 170%;
+}
+.fa {
+    padding: 20px;
+    font-size: 300px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/*instagram logo*/
+.fa-instagram {
+  background: url("http://d1qhuz9ahqnrhh.cloudfront.net/wp-content/uploads/2016/05/instagram_gradient_wallpaper_by_jasonzigrino-da28exh.png");
+  background-size: cover;
+}
+#insta{
+    font-size: 25px;
+    color: white;
+}
