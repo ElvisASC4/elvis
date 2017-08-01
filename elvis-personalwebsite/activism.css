@@ -1,26 +1,11 @@
 body {
     margin-top: 50px;  /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background: url('elviswebsitepic.jpg') no-repeat center center fixed;
+    background: url("https://ak5.picdn.net/shutterstock/videos/28030594/thumb/11.jpg") no-repeat center center fixed;
+    background-repeat: repeat;
     background-size: cover;
 }
 
-.text{
-    text-align: center;
-    color: white;
-    text-shadow: 2px 1px black;
-    position: relative;
-    bottom: -205px;
-    left: -410px;
-}
-
-#name{
-    font-size: 250%;
-}
-
-#info{
-    font-size: 160%;
-}
-/*social media logos*/
+/*logos*/
 .fa {
     padding: 20px;
     font-size: 300px;
@@ -32,6 +17,7 @@ body {
 .fa:hover {
     opacity: 0.7;
 }
+
 /*instagram logo*/
 .fa-instagram {
   background: url("http://d1qhuz9ahqnrhh.cloudfront.net/wp-content/uploads/2016/05/instagram_gradient_wallpaper_by_jasonzigrino-da28exh.png");
@@ -41,6 +27,7 @@ body {
     font-size: 25px;
     color: white;
 }
+
 /*github logo*/
 .fa-github{
     background-color: black;

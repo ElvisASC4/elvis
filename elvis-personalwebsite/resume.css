@@ -1,25 +1,9 @@
 body {
     margin-top: 50px;  /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background: url('elviswebsitepic.jpg') no-repeat center center fixed;
+    background: url('http://www.journeymexico.com/ppt-backgrounds?showimg_aldggj=ppt+backgrounds.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
-.text{
-    text-align: center;
-    color: white;
-    text-shadow: 2px 1px black;
-    position: relative;
-    bottom: -205px;
-    left: -410px;
-}
-
-#name{
-    font-size: 250%;
-}
-
-#info{
-    font-size: 160%;
-}
 /*social media logos*/
 .fa {
     padding: 20px;
@@ -32,6 +16,7 @@ body {
 .fa:hover {
     opacity: 0.7;
 }
+
 /*instagram logo*/
 .fa-instagram {
   background: url("http://d1qhuz9ahqnrhh.cloudfront.net/wp-content/uploads/2016/05/instagram_gradient_wallpaper_by_jasonzigrino-da28exh.png");
@@ -41,6 +26,7 @@ body {
     font-size: 25px;
     color: white;
 }
+
 /*github logo*/
 .fa-github{
     background-color: black;
@@ -49,4 +35,14 @@ body {
 #github{
     font-size: 25px;
     color: white;
+
+}
+#resume{
+    border: 3px solid darkred;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 80px; 
 }
