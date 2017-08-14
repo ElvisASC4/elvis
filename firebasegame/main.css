@@ -1,0 +1,42 @@
+body {
+    background-image:url("http://cdn01.wallconvert.com/_media/wallpapers_1920x1080/1/2/rock-paper-scissors-14676.png");
+    background-size: 100% 800px;
+}
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#rps{
+    border: 3px solid darkred;
+    position: absolute;
+    left: 1025px;
+    bottom: 10px;
+    position: fixed;
+}
+
+#mm{
+    border: 3px solid darkred;
+    position: absolute;
+    left: 400px;
+    bottom: 10px;
+    position: fixed;
+}
+div.userContainer{
+    padding-bottom:0;
+}
+
+#gun{
+    border: 3px solid darkred;
+    position: absolute;
+    left: 1010px;
+    bottom: 500px;
+    position: fixed;
+}

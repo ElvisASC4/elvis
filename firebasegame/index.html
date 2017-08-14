@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Game</title>
+    <script>
+    // Initialize Firebase
+        // var config = {
+        //     apiKey: "AIzaSyAlHfc64TjChEqNcCkc4q-0vtrFpUve3Co",
+        //     authDomain: "rps-project-7a0b0.firebaseapp.com",
+        //     databaseURL: "https://rps-project-7a0b0.firebaseio.com",
+        //     projectId: "rps-project-7a0b0",
+        //     storageBucket: "",
+        //     messagingSenderId: "600412828151"
+        // };
+        // firebase.initializeApp(config);
+    </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="sketch.js"></script>
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>
+
+        <div class="userContainer">
+            <form action="#">
+
+                <div>
+                 <button id="rocky" onclick="rock()">Rock</button>
+                  <button id="scissory" onclick="scissor()">scissor</button>
+                  <button id="papery" onclick="paper()">paper</button>
+                  <!--<button onclick="gamereset()">Reset</button>-->
+            </div>
+            </form>
+            <img id="rps" src="http://www.gifmania.co.uk/Objects-Animated-Gifs/Animated-Toys/Rock-Paper-Scissors/Rock-Paper-Scissors-87021.gif">
+            <img id="mm" src="https://media.giphy.com/media/124Tqt4CuS4vHq/giphy.gif">
+            <img id="gun" src="http://pa1.narvii.com/5821/ceec9779c218b6ac9ad933a72444766e026bd109_hq.gif">
+        </div>
+
+    </body>
+</html>
